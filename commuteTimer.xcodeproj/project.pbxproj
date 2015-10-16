@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		B533E00A1B2574D7005FE7FE /* commuteTimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = commuteTimer; sourceTree = BUILT_PRODUCTS_DIR; };
 		B533E00D1B2574D7005FE7FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B533E0141B257604005FE7FE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		B533E0011B2574D7005FE7FE = {
 			isa = PBXGroup;
 			children = (
+				B533E0141B257604005FE7FE /* CoreLocation.framework */,
 				B533E00C1B2574D7005FE7FE /* commuteTimer */,
 				B533E00B1B2574D7005FE7FE /* Products */,
 			);
@@ -88,6 +90,7 @@
 		B533E0021B2574D7005FE7FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Taylor H. Gilbert";
 				TargetAttributes = {
@@ -236,6 +239,7 @@
 				B533E0131B2574D7005FE7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
